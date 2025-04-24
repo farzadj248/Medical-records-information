@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'iranSans';
+    src: url('./fonts/IRANSansWeb.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    direction: rtl;
+    background-color: red;
+}
+
+html ,body {
+    font-family: 'iranSans';
+}
+
+input ,textarea {
+    border: none!important;
+}
+
+.v-text-field .v-field {
+    border-radius: 16px !important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.Toastify__toast {
+    direction: rtl;
+    text-align: right;
+    font-family: 'iranSans';
+}
